@@ -1,6 +1,10 @@
 {
   "project_info": {
     "project_number": "383361738476",
+<<<<<<< HEAD
+=======
+    "firebase_url": "https://alpha-version-ca06f-default-rtdb.firebaseio.com",
+>>>>>>> origin/master
     "project_id": "alpha-version-ca06f",
     "storage_bucket": "alpha-version-ca06f.appspot.com"
   },
