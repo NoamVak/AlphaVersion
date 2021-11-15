@@ -30,23 +30,23 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/editTextTextEmailAddress"
+                android:id="@+id/ed1"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="10"
+                android:layout_weight="15"
                 android:ems="10"
                 android:inputType="textEmailAddress" />
 
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="30" />
+                android:layout_weight="20" />
 
             <EditText
-                android:id="@+id/editTextTextPassword"
+                android:id="@+id/ed2"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="10"
+                android:layout_weight="15"
                 android:ems="10"
                 android:inputType="textPassword" />
 
@@ -56,10 +56,10 @@
                 android:layout_weight="25" />
 
             <Button
-                android:id="@+id/button"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="10"
+                android:onClick="logIn"
                 android:text="Button" />
 
             <Space
